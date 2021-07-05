@@ -1,28 +1,57 @@
 body {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
+color: rgb(133, 131, 131);
    font-size: 50px;
-   font-weight: 700;
+   font-weight: bold;
+   margin-bottom: 30px;
 }
 
 p{
     font-weight: 400;
+    color: rgb(75, 75, 75);
+    margin-top: 5px;
 }
 .intro-part {
     display: flex;
     margin: 40px 100px 40px 150px;
 }
+.aboutus-part {
+ display: flex;
+ background-image: url(images/shapes/Frame\ 58.jpg);
+ background-repeat: no-repeat;
+ background-size: 2000px 850px;
+ background-position: 50% 50%;
+ margin: 40px 100px 40px 150px;
+}
+
 #first-part {
     margin-top: 150px;
 }
+
+#second-part {
+    margin-top: 250px;
+}
+
 #first-paragraph {
     margin-bottom: 40px;
     margin-right: 150px;
 }
-img{
+
+#second-paragraph {
+    margin-bottom: 40px;
+    margin-right: 200px
+}
+
+.first-image{
     margin-top: 30px;
+    height: 700px;
+}
+.second-image {
+    margin-top: 156px;
+    margin-left: 0;
     height: 700px;
 }
 .half-width {
@@ -32,7 +61,7 @@ img{
 .red-color{
     color: #db222c;
 }
-.order-button {
+.link-button {
     text-decoration: none;
     color: white;
     font-weight: 700;
