@@ -1,0 +1,43 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+   font-size: 50px;
+   font-weight: 700;
+}
+
+p{
+    font-weight: 400;
+}
+.intro-part {
+    display: flex;
+    margin: 40px 100px 40px 150px;
+}
+#first-part {
+    margin-top: 150px;
+}
+#first-paragraph {
+    margin-bottom: 40px;
+    margin-right: 150px;
+}
+img{
+    margin-top: 30px;
+    height: 700px;
+}
+.half-width {
+    width: 50%;
+}
+
+.red-color{
+    color: #db222c;
+}
+.order-button {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(#ED213A, #93291E);
+    padding: 10px 40px 10px 40px;
+    margin: 100px 5px 5px 0px;
+    border-radius: 40px;
+}
