@@ -27,6 +27,18 @@ p{
  margin: 40px 100px 40px 150px;
 }
 
+.food-name{
+ font-weight: 700;
+ font-size: 30px;
+ margin: 5px 5px 5px 90px;
+}
+
+.foods {
+ margin-top: 100px;
+}
+.food-paragraph {
+    margin: 5px 30px 5px 30px;
+}
 #first-part {
     margin-top: 150px;
 }
@@ -45,6 +57,15 @@ p{
     margin-right: 200px
 }
 
+#food-intro {
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+#two-words {
+    margin: 5px 150px 5px 150px;
+}
 .first-image{
     margin-top: 30px;
     height: 700px;
@@ -54,6 +75,28 @@ p{
     margin-left: 0;
     height: 700px;
 }
+
+.foods {
+    display: flex;
+    height: 5%;
+    width: 35%;
+    
+}
+
+.food-image {
+    margin: 10px 10px 5px 10px;
+    height: 300px;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.food-design {
+    box-shadow: 10px 10px 40px #aaaaaa;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
 .half-width {
     width: 50%;
 }
